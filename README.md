@@ -1,5 +1,5 @@
 ## 📖 Descrição
-Este projeto é uma API REST simples para um CRUD em Spring Boot/Java, MySQL e têm o intuito de exercitar minhas habilidades em Java.
+Este projeto é uma API REST simples para um CRUD em um banco de dados, foi escrito em Spring Boot/Java, MySQL e têm o intuito de exercitar minhas habilidades em Java.
 
 ### 💻 Tecnologias
 - Java
@@ -15,23 +15,36 @@ Este projeto é uma API REST simples para um CRUD em Spring Boot/Java, MySQL e t
 
 ### 🖱️ Como Rodar o Código
 Caso tenha interesse em ver o código funcionando é necessário entrar em contato comigo primeiro, pois geralmente deixo o deploy do banco de dados e da API 
-inativo no Railway, mas no caso de eu ativar basta enviar as requisições http para o endereço https://springbootmysqlapp-production.up.railway.app
+inativo no Railway, mas no caso de eu ativar basta enviar as requisições http para o endereço: 
 
-Endpoints:
+https://springbootmysqlapp-production.up.railway.app
+
+#### Endpoints:
+
 /users
+
 /products
+
 /orders
+
 /categories
 
-Exemplos:
-Listar todos usuários
-GET /users
+#### Exemplos de uso:
 
-Criar um usuário
-POST /users
+Listar todos usuários: GET /users
+
+Criar um usuário: POST /users
+
+Body:
+
 {
+
   "name": "Fulano",
+  
   "email": "fulano@gmail.com",
+  
   "phone": "999999999",
+  
   "password": "123456"
+
 }
