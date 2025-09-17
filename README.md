@@ -1,7 +1,7 @@
-# 📖 Descrição
+## 📖 Descrição
 Este projeto é uma API REST simples para um CRUD em Spring Boot/Java, MySQL e têm o intuito de exercitar minhas habilidades em Java.
 
-# 💻 Tecnologias
+### 💻 Tecnologias
 - Java
 - Spring Boot
 - JPA/Hibernate
@@ -9,11 +9,11 @@ Este projeto é uma API REST simples para um CRUD em Spring Boot/Java, MySQL e t
 - MySQL
 - H2 Database(Substituído depois por MySQL)
 
-# ⚙️ Funcionalidades
+### ⚙️ Funcionalidades
 - Listar Users(Usuários), Products(Produtos), Orders(Pedidos) e Categories(Categorias).
 - Criar, Deletar(Somente users que ainda não têm pedido) e Atualizar Users.
 
-# 🖱️ Como Rodar o Código
+### 🖱️ Como Rodar o Código
 Caso tenha interesse em ver o código funcionando é necessário entrar em contato comigo primeiro, pois geralmente deixo o deploy do banco de dados e da API 
 inativo no Railway, mas no caso de eu ativar basta enviar as requisições http para o endereço https://springbootmysqlapp-production.up.railway.app
 
