@@ -24,10 +24,11 @@ public class ResourceExceptionHandler {
 	}
 	
 	@ExceptionHandler(DatabaseException.class)
-	public ResponseEntity<StandardError> database(DatabaseException e, HttpServletRequest request) {
+	public ResponseEntity<StandardError> database(HttpServletRequest request) {
 		String error = "Database error";
+		String message = "It is not possible to remove users who already got orders";
 		HttpStatus status = HttpStatus.BAD_REQUEST;
-		StandardError err = new StandardError(Instant.now(), status.value(), error, e.getMessage(), request.getRequestURI());
+		StandardError err = new StandardError(Instant.now(), status.value(), error, message, request.getRequestURI());
 		return ResponseEntity.status(status).body(err);
 	}
 }
