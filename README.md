@@ -15,9 +15,11 @@ Este projeto é uma API REST simples para um CRUD em um banco de dados, foi escr
 
 ### 🖱️ Como Rodar o Código
 Caso tenha interesse em ver o código funcionando é necessário entrar em contato comigo primeiro, pois geralmente deixo o deploy do banco de dados e da API 
-inativo no Railway, mas no caso de eu ativar basta enviar as requisições http para o endereço: 
+inativo no Railway, mas no caso de eu ativar, basta enviar as requisições http para o endereço: 
 
 https://springbootmysqlapp-production.up.railway.app
+
+(Já há alguns dados que são pré-carregados no banco e a persistência de dados está desativada)
 
 #### Endpoints:
 
