@@ -39,14 +39,14 @@ Criar um usuário: POST /users
 
 Body:
 
-{
-
-  "name": "Fulano",
-  
-  "email": "fulano@gmail.com",
-  
-  "phone": "999999999",
-  
-  "password": "123456"
-
-}
+    {
+    
+      "name": "Fulano",
+      
+      "email": "fulano@gmail.com",
+      
+      "phone": "999999999",
+      
+      "password": "123456"
+    
+    }
