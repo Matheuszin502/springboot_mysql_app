@@ -1,0 +1,1 @@
+INSERT INTO `tb_user` VALUES (1,'maria@gmail.com','Maria do Carmo','123456','988888888'),(2,'pedro@gmail.com','Pedro Silveira','123456','977777777'),(3,'joão@gmail.com','João Batista','123456','922222222'),(4,'laura@gmail.com','Laura Duarte','123456','955555555');
